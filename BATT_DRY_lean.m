@@ -16,12 +16,12 @@ Save_ppt = 0;
 
 
 %% Absolute Path of MedPC DATA
-MedPC_DATA_Directory = 'C:\Users\Lab36\iCloudDrive\Maestria\Lab Neurobiologia del Apetito\\MedPC\Brief-access Taste Test\Batt_DryLicks_Photometry';
+MedPC_DATA_Directory = 'MedPC\Brief-access Taste Test\Batt_DryLicks_Photometry';
 
-PHOTO_DATA_Directory = 'C:\Users\Lab36\iCloudDrive\Maestria\Lab Neurobiologia del Apetito\PHOTOMETRY_PLX\Mona PHOTO\BATT_Dry_Photo';
+PHOTO_DATA_Directory = 'BATT_Dry_Photo';
 
 %Save pptx whit Rasters
-Results_path = 'C:\Users\Mona\iCloudDrive\Maestria\Lab Neurobiologia del Apetito\PHOTOMETRY_PLX\PHOTO_Results';
+Results_path = 'PHOTOMETRY_PLX\PHOTO_Results';
 ppt_file = fullfile(Results_path, 'BATT_DRY_PHOTOMETRY_Raster_2.ppt');
 
 %% Read and Analyze MedPC data
